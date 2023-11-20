@@ -1,0 +1,49 @@
+.slider{
+    background-color: rgb(252, 187, 199);
+    height: 40vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+ 
+}
+img{
+    display: block;
+    margin: auto;
+}
+.img1{
+    transform: translate(-46vw);
+    animation: slide1 3s  forwards;
+}
+.img2{
+    transform: translate(-63vw);
+    animation: slide2 3s   forwards;
+}
+.img3{
+    transform: translate(-118vw);
+    animation: slide3 3s   forwards;
+}
+@keyframes slide1 {
+    0%{
+        transform: translate(-46vw);
+    }
+    100%{
+        transform: translate(33vw);
+    }
+}
+@keyframes slide2 {
+    0%{
+        transform: translate(-63vw);
+    }
+    100%{
+        transform: translate(32vw);
+    }
+}
+@keyframes slide3 {
+    0%{
+        transform: translate(-118vw);
+    }
+    100%{
+        transform: translate(-66vw);
+    }
+}

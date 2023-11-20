@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Golos+Text:wght@600&family=Kenia&family=Lato:ital,wght@1,100&family=Roboto:wght@300&display=swap');
+
+:root {
+    --main-bg-color: rgba(241, 70, 102, 0.89);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    height: 11vh;
+    background-color: var(--main-bg-color);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0px 8px 3px 30px;
+}
+
+nav ul {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 17px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+}
+
+.search input {
+    width: 30vw;
+    height: 4vh;
+    border-radius: 2px;
+    margin: 0px 2px 0px 34px;
+    padding: 0 12px;
+}
+
+.search button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.search button:hover {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.btn {
+    padding: 5px;
+    background-color: var(--main-bg-color);
+    color: white;
+    border: 2px solid rgb(208, 208, 251);
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+.container {
+    min-height: calc(100vh - 9vh - 7vh);
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin:9px 0px 12px 0px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.card {
+    /* background-color: brown; */
+    margin: auto;
+    max-width: 93vw;
+  
+}
+.cards{
+    display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.cart-item{
+    width: 18vw;
+display:inline-flex;
+justify-content: center;
+flex-direction: column;
+margin:-4px;
+}
+.cart-item img {
+    margin: 0px;
+    /* width: 17vw; */
+}
+
+footer {
+    height: 7vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
